@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 import Spinner from '../components/Spinner';
  
 const CATEGORY_COLORS = {
-  Food: '#f97316', Transport: '#3b82f6', Shopping: '#a855f7',
-  Bills: '#ef4444', Health: '#22c55e', Entertainment: '#eab308', Other: '#6b7280',
+  Food: '#f59e0b', Transport: '#4caf50', Shopping: '#8bc34a',
+  Bills: '#ef4444', Health: '#22c55e', Entertainment: '#2e7d32', Other: '#6b7280',
 };
  
 export default function Dashboard() {

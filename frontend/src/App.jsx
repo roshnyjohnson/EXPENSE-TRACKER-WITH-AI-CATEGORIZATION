@@ -7,14 +7,19 @@ import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
 import AddExpense from './pages/AddExpense';
 import History from './pages/History';
+import AstronautMascot from './components/AstronautMascot';
 import './App.css';
  
 function App() {
   return (
     <BrowserRouter>
       <AuthProvider>
-        <Navbar />
-        <div className='main-content'>
+        <div className='app-shell'>
+          <div className='mascot-bg' aria-hidden='true'>
+            <AstronautMascot />
+          </div>
+          <Navbar />
+          <div className='main-content'>
           <Routes>
             {/* Public routes — no login required */}
             <Route path='/login' element={<Login />} />
@@ -34,6 +39,7 @@ function App() {
             {/* Default: redirect root to dashboard */}
             <Route path='/' element={<Navigate to='/dashboard' replace />} />
           </Routes>
+        </div>
         </div>
       </AuthProvider>
     </BrowserRouter>
