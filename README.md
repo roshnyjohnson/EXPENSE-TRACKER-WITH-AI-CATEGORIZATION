@@ -4,6 +4,7 @@
 > from plain descriptions. Built with the MERN stack.
  
 **Live Demo:** https://expense-tracker-with-ai-categorizat.vercel.app
+
 **Backend API:** https://expense-tracker-with-ai-categorization.onrender.com
  
 ---
@@ -23,7 +24,6 @@
 
 <img width="1912" height="1006" alt="image" src="https://github.com/user-attachments/assets/630f4cb1-f381-4d68-8f81-c08534eb8851" />
 
-<img width="1912" height="1006" alt="image" src="https://github.com/user-attachments/assets/adc61c1e-6b65-44be-a1e9-bb361417354a" />
 
 <img width="1918" height="1012" alt="image" src="https://github.com/user-attachments/assets/3b761919-5721-402e-8f32-05786d3cec02" />
 
